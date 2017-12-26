@@ -1,0 +1,17 @@
+---
+tags: []
+layout: input_right
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- value: Nombre del artista
+  checked: false
+- value: ID del artista
+  checked: true
+- value: Integrantes de la banda
+  checked: false
+- value: Nacionalidad
+  checked: false
