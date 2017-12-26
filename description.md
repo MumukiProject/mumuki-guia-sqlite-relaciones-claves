@@ -3,4 +3,3 @@ Hasta ahora tuvimos solo una tabla, o dos en donde simplemente copiamos informac
 Por ejemplo, cambiar la cantidad de temporadas en una tabla implicaría tener que reflejar la actualización en la de cada usuario también. :cold_sweat:
 
 Por suerte todo eso ya está resuelto :smiley:. ¡Veamos cómo!
-
