@@ -4,14 +4,9 @@ layout: input_right
 editor: single_choice
 type: problem
 extra_visible: false
-language: text
 manual_evaluation: false
 choices:
-- value: Nombre del artista
+- value: lalala
   checked: false
-- value: ID del artista
-  checked: true
-- value: Integrantes de la banda
-  checked: false
-- value: Nacionalidad
+- value: lalala2
   checked: false
