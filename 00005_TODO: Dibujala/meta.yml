@@ -7,7 +7,7 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: lalala
-  checked: false
-- value: lalala2
+- value: ESTA
   checked: true
+- value: ESTA NO
+  checked: false
