@@ -18,7 +18,7 @@ Veamos cómo quedaría la consulta para conocer los temas con género “Folklor
           "pk": true
         },
         {
-          "name": "album",
+          "name": "titulo_cancion",
           "type": "Text"
         },
         {
@@ -29,43 +29,51 @@ Veamos cómo quedaría la consulta para conocer los temas con género “Folklor
             "to": { "entity": "artistas", "column": "nombre_artista" },
             "type": "many_to_one"
           }
+        },
+        {
+          "name": "album",
+          "type": "Text"
+        },
+        {
+          "name": "anio",
+          "type": "Integer"
         }
       ]
     },
     {
-      "name": "Entity_2",
+      "name": "artistas",
       "columns": [
         {
-          "name": "ent2_id",
-          "type": "Integer",
-          "pk": true
-        }
-      ]
-    },
-    {
-      "name": "Entity_3",
-      "columns": [
-        {
-          "name": "ent3_id",
+          "name": "id_artista",
           "type": "Integer",
           "pk": true
         },
         {
-          "name": "ent2_id",
-          "type": "Integer",
-          "pk": true,
-          "fk": {
-            "to": { "entity": "Entity_2", "column": "ent2_id" },
-            "type": "many_to_one"
-          }
+          "name": "nombre_artista",
+          "type": "Text"
         },
         {
-          "name": "ent1_description",
-          "type": "Varchar"
+          "name": "integrantes",
+          "type": "Text"
+        },
+        {
+          "name": "genero",
+          "type": "Text"
+        },
+        {
+          "name": "nacionalidad",
+          "type": "Text"
         }
       ]
     }
   ]'>
 </div>
 
+``` sql
+SELECT id_cancion, nombre_cancion, album, canciones.nombre_artista, genero, anio 
+FROM canciones, artistas
+WHERE canciones.nombre_artista = artistas.nombre_artista
+AND genero LIKE “folklore”;
+
+```
 
