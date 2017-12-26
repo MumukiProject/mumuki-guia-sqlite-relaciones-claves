@@ -15,5 +15,4 @@ SET genero = "Folklore"
 WHERE nombre_artista LIKE "los borbotones";
 ```
 
-¡Comprobá cómo quedaría! ;)
-
+¡Comprobá cómo quedaría! 
