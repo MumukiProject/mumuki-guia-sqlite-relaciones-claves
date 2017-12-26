@@ -4,7 +4,7 @@ Pero es importante entender que el nombre de la banda debe seguir correspondién
 
 Así, podemos mirar los datos de una canción en una tabla, y para conocer los detalles de la banda tenemos el campo “nombre_artista” con el que buscar en la otra tabla. 
 
-Veamos cómo quedaría la consulta para conocer los temas con género “Folklore”.
+Veamos cómo quedaría la consulta para conocer los temas con género 'Folklore'.
 
 <div
   class='mu-erd'
