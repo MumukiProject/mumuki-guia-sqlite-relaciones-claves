@@ -11,4 +11,4 @@ En el ejemplo de las canciones se leería así:
 * Una o muchas canciones se relacionan (tienen) con uno y solo un artista. 
 * Un artista se relaciona (tiene) con una o muchas canciones.  
 
-> ¿Cómo sería la relación de una madre con sus hijos?
+> ¿Cómo sería la relación de una madre con sus hijos? O "cómo se leería esta relación" y agregar DER
