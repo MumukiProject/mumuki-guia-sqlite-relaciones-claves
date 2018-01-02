@@ -53,5 +53,3 @@ Ya no importa cómo lo escribamos, porque a todos ellos los vamos a identificar 
 Fijate que la **PK** de una tabla (:key: id_artista en “artistas”) no es la clave primaria de la otra (:key: id_canción en “canciones”). 
 
 Pero, como es un campo que le ponemos a la canción para referenciar a determinado registro de la tabla artista, se lo llama clave foránea, foreign key en inglés, o directamente **FK** (y lo representamos en el DER con la llave plateada).
-
-lctm
