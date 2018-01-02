@@ -1,0 +1,12 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+manual_evaluation: false
+choices:
+- value: esta si
+  checked: false
+- value: esta no
+  checked: false
