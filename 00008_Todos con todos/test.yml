@@ -1,0 +1,2 @@
+type: display
+query: select * from canciones;
