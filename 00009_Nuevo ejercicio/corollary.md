@@ -1,5 +1,5 @@
 |titulo|
-|---|
+|:---:|
 |Los juegos del hambre|
 |X-men|
 
