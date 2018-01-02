@@ -6,7 +6,7 @@ METER TABLA...
 
 canciones
 
-| :key: **id_cancion**|cancion|id_partitura (FK) |
+| **id_cancion** ```:key:``` |cancion|id_partitura (FK) |
 |:----------:|---------|:------:|
 |1|  left-aligned |**3**|
 |2|    centered   |**2**|
