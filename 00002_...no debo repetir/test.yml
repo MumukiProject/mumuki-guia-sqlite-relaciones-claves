@@ -1,1 +1,2 @@
-TODO nada...
+type: display
+query: select * from canciones;

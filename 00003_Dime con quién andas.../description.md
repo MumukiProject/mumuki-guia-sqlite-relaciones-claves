@@ -6,65 +6,47 @@ Entonces recapitulemos… ¿cuál es el único campo que identifica unívocament
 
 <div
   class='mu-erd'
-  data-entities='[
-    {
-      "name": "canciones",
-      "columns": [
-        {
-          "name": "id_cancion",
-          "type": "Integer",
-          "pk": true
-        },
-        {
-          "name": "titulo_cancion",
-          "type": "Text"
-        },
-        {
-          "name": "???",
-          "type": "Text",
-          "pk": false,
-          "fk": {
-            "to": { "entity": "artistas", "column": "nombre_artista" },
-            "type": "many_to_one"
-          }
-        },
-        {
-          "name": "album",
-          "type": "Text"
-        },
-        {
-          "name": "anio",
-          "type": "Integer"
+  data-entities='{
+    "canciones": {
+      "id_cancion": {
+        "type": "Integer",
+        "pk": true
+      },
+      "titulo_cancion": {
+        "type": "Text"
+      },
+      "¿?: {
+        "type": "¿?",
+        "pk": false,
+        "fk": {
+          "to": { "entity": "artistas", "column": "nombre_artista" },
+          "type": "many_to_one"
         }
-      ]
+      },
+      "album":{
+        "type": "Text"
+      },
+      "anio":{
+        "type": "Integer"
+      }
     },
-    {
-      "name": "artistas",
-      "columns": [
-        {
-          "name": "id_artista",
-          "type": "Integer",
-          "pk": true
-        },
-        {
-          "name": "nombre_artista",
-          "type": "Text"
-        },
-        {
-          "name": "integrantes",
-          "type": "Text"
-        },
-        {
-          "name": "genero",
-          "type": "Text"
-        },
-        {
-          "name": "nacionalidad",
-          "type": "Text"
-        }
-      ]
+    "artistas": {
+      "id_artista": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre_artista": {
+        "type": "Text"
+      },
+      "integrantes": {
+        "type": "Text"
+      },
+      "genero": {
+        "type": "Text"
+      },
+      "nacionalidad": {
+        "type": "Text"
+      }
     }
-  ]'>
+  }'>
 </div>
-
-
