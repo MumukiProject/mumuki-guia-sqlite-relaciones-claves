@@ -31,7 +31,7 @@ Lo bueno de todo esto es que ya sabemos cómo se resuelve ese tipo de relación 
 
 > Consultemos todas las películas en las que actuó Jennifer Lawrence.
 
-``` sql
+> ``` sql
 SELECT titulo 
 FROM series_peliculas s, personaje_por_serie ps, personajes p
 WHERE s.id_contenido = ps.id_contenido 
