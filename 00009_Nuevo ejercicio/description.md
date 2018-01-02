@@ -9,25 +9,25 @@ Lo bueno de todo esto es que ya sabemos cómo se resuelve ese tipo de relación 
 
 |_PK_  **id_contenido**|titulo|
 |:---:|---|
-|1|Los juegos del hambre|
-|2|X-men|
-|3|Yo antes de tí|
+|**1**|Los juegos del hambre|
+|**2**|X-men|
+|**3**|Yo antes de tí|
 
 **personaje_por_contenido**
 
 |_PK, FK_ **id_contenido**|_PK, FK_ **id_personaje**|
 |:---:|:---:|
-|1|1|
-|1|2|
-|2|1|
-|3|2|
+|**1**|_1_|
+|**1**|_2_|
+|**2**|_1_|
+|**3**|_2_|
 
 **personajes**
 
 |_PK_  **id_personaje**|actriz_actor|
 |:---:|---|
-|1|Jennifer Lawrence|
-|2|Sam Claflin|
+|_1_|Jennifer Lawrence|
+|_2_|Sam Claflin|
 
 > Consultemos todas las películas en las que actuó Jennifer Lawrence.
 
