@@ -30,9 +30,8 @@ Lo bueno de todo esto es que ya sabemos cómo se resuelve ese tipo de relación 
 |_2_|Sam Claflin|
 
 > Consultemos todas las películas en las que actuó Jennifer Lawrence.
-
 ``` sql
-SELECT título 
+SELECT titulo 
 FROM series_peliculas s, personaje_por_serie ps, personajes p
 WHERE s.id_contenido = ps.id_contenido 
 AND ps.id_personaje = p.id_personaje 
