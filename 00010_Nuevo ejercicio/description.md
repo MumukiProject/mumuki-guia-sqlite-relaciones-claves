@@ -15,7 +15,7 @@ Ahora probalo vos.
       "titulo": {
         "type": "Text"
       }
-    }
+    },
     "personaje_por_contenido": {
       "id_contenido": {
         "type": "Integer",
