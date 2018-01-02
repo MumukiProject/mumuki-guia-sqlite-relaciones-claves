@@ -5,68 +5,51 @@ Pero es importante entender que el nombre de la banda debe seguir correspondién
 Así, podemos mirar los datos de una canción en una tabla, y para conocer los detalles de la banda tenemos el campo "nombre_artista" con el que buscar en la otra tabla. 
 
 Veamos cómo quedaría la consulta para conocer los temas con género "Folklore".
-
 <div
   class='mu-erd'
-  data-entities='[
-    {
-      "name": "canciones",
-      "columns": [
-        {
-          "name": "id_cancion",
-          "type": "Integer",
-          "pk": true
-        },
-        {
-          "name": "titulo_cancion",
-          "type": "Text"
-        },
-        {
-          "name": "nombre_artista",
-          "type": "Text",
-          "pk": false,
-          "fk": {
-            "to": { "entity": "artistas", "column": "nombre_artista" },
-            "type": "many_to_one"
-          }
-        },
-        {
-          "name": "album",
-          "type": "Text"
-        },
-        {
-          "name": "anio",
-          "type": "Integer"
+  data-entities='{
+    "canciones": {
+      "id_cancion": {
+        "type": "Integer",
+        "pk": true
+      },
+      "titulo_cancion": {
+        "type": "Text"
+      },
+      "nombre_artista": {
+        "type": "Text",
+        "pk": false,
+        "fk": {
+          "to": { "entity": "artistas", "column": "nombre_artista" },
+          "type": "many_to_one"
         }
-      ]
+      },
+      "album":{
+        "type": "Text"
+      },
+      "anio":{
+        "type": "Integer"
+      }
     },
-    {
-      "name": "artistas",
-      "columns": [
-        {
-          "name": "id_artista",
-          "type": "Integer",
-          "pk": true
-        },
-        {
-          "name": "nombre_artista",
+    "artistas": {
+      "id_artista": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre_artista": {
+        "type": "Text"
+      }
+      "integrantes": {
+        "type": "Text"
+      },
+      "genero": {
+        "type": "Text"
+      },
+      "nacionalidad": {
           "type": "Text"
-        },
-        {
-          "name": "integrantes",
-          "type": "Text"
-        },
-        {
-          "name": "genero",
-          "type": "Text"
-        },
-        {
-          "name": "nacionalidad",
-          "type": "Text"
-        }
-      ]
+      }
     }
-  ]'>
+  }'>
 </div>
 
 ``` sql
