@@ -7,7 +7,11 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: Un hijo tiene muchas madres
+- value: Un hijo tiene muchas madres.
+  checked: false
+- value: Uno (y quizás varios) hijo/s tiene/n una madre.
   checked: true
-- value: Muchos hijos tienen
+- value: Una madre tiene muchos hijos.
+  checked: true
+- value: Muchas madres tienen un mismo hijo.
   checked: false

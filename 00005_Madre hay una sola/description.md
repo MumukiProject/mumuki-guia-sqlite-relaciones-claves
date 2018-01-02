@@ -1,5 +1,3 @@
-REVISAR ESTE EJERCICIO EN BASE AL DER (CARDINALIDAD Y MODALIDAD). BUSCARLE LA VUELTA A LA PREGUNTA...
-
 En el DER las _relaciones_ se las representa por la línea que ves entre las tablas. 
 
 1. La patita sola | indica de qué lado está ese único elemento que se relaciona con el resto.
