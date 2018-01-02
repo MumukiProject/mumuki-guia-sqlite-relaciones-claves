@@ -16,7 +16,7 @@ Entonces recapitulemos… ¿cuál es el único campo que identifica unívocament
         "type": "Text"
       },
       "lalala": {
-        "type": "Text",
+        "type": "lalala",
         "pk": false,
         "fk": {
           "to": { "entity": "artistas", "column": "nombre_artista" },
