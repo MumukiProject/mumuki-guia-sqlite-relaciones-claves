@@ -1,4 +1,4 @@
-Sabemos que las canciones se agrupan en álbumes, discos/cds, cassettes o vinilos (para los más grandes ).
+Sabemos que las canciones se agrupan en álbumes, discos/cds, cassettes o vinilos (para los más grandes :stuck_out_tongue_winking_eye:).
 
 A la vez, cada uno de estos formatos suelen contener muchas canciones. 
 
