@@ -14,11 +14,11 @@ Ya no importa cómo lo escribamos, porque a todos ellos los vamos a identificar 
       "titulo_cancion": {
         "type": "Text"
       },
-      "fk_artistas": {
-        "type": "?",
+      "id_artista": {
+        "type": "Integer",
         "pk": false,
         "fk": {
-          "to": { "entity": "artistas", "column": "nombre_artista" },
+          "to": { "entity": "artistas", "column": "id_artista" },
           "type": "many_to_one"
         }
       },
