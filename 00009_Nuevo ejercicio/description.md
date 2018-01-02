@@ -5,7 +5,7 @@ Queremos agregar la posibilidad de buscar por actor, y devolver todas las pelíc
 Lo bueno de todo esto es que ya sabemos cómo se resuelve ese tipo de relación (muchos a muchos):
 
 
-**serie_pelicula**
+**series_peliculas**
 
 |_PK_  **id_contenido**|titulo|
 |:---:|---|
@@ -24,9 +24,19 @@ Lo bueno de todo esto es que ya sabemos cómo se resuelve ese tipo de relación 
 
 **personajes**
 
-|_PK_  **id_personaje**|actor_actriz|
+|_PK_  **id_personaje**|actriz_actor|
 |:---:|---|
 |1|Jennifer Lawrence|
 |2|Sam Claflin|
+
+> Consultemos todas las películas en las que actuó Jennifer Lawrence.
+
+``` sql
+SELECT título 
+FROM series_peliculas s, personaje_por_serie ps, personajes p
+WHERE s.id_contenido = ps.id_contenido 
+AND ps.id_personaje = p.id_personaje 
+AND p.actriz_actor LIKE “%Jennifer%Lawrence%”;
+```
 
 
