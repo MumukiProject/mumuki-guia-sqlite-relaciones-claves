@@ -39,7 +39,7 @@ Veamos cómo quedaría la consulta para conocer los temas con género "Folklore"
       },
       "nombre_artista": {
         "type": "Text"
-      }
+      },
       "integrantes": {
         "type": "Text"
       },
@@ -47,7 +47,7 @@ Veamos cómo quedaría la consulta para conocer los temas con género "Folklore"
         "type": "Text"
       },
       "nacionalidad": {
-          "type": "Text"
+        "type": "Text"
       }
     }
   }'>
