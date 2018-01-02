@@ -1,0 +1,1 @@
+Ya ves que cada canción tiene una única partitura asociada, y a la vez cada partitura tiene una única canción. Esto es una típica relación de “uno a uno”, donde cada registro se relaciona con un solo registro de la otra tabla. 
