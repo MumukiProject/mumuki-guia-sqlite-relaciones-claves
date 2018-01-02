@@ -7,7 +7,7 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: esta si
-  checked: true
 - value: esta no
   checked: false
+- value: esta sí
+  checked: true
