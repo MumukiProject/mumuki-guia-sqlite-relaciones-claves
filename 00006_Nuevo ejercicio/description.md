@@ -5,6 +5,7 @@ METER TABLA...
 > Consultá todas las canciones asociadas a la partitura de “Symphony No.5”.
 
 `canciones
+
 | _PK_  **id_cancion**|cancion| _FK_  **id_partitura** |
 |:----------:|---------|:------:|
 |1|  left-aligned |**3**|
