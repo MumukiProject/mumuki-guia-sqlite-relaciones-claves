@@ -1,8 +1,14 @@
 ---
 tags: []
 layout: input_right
-editor: code
+editor: single_choice
 type: problem
 extra_visible: false
 manual_evaluation: false
-choices: []
+choices:
+- value: Ponemos el nombre del disco en un campo de la canción
+  checked: false
+- value: Ponemos el id del disco en un campo de la canción
+  checked: false
+- value: Ponemos el id de la canción en un campo del álbum
+  checked: false
