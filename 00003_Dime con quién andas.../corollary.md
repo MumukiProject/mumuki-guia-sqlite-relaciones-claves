@@ -2,6 +2,7 @@
 
 Ya no importa cómo lo escribamos, porque a todos ellos los vamos a identificar de la misma forma usando solo la PK (el ID numérico) de la que tanto hablamos (o quizás no tanto, pero ahora nos va a importar un poquito más :stuck_out_tongue_winking_eye:).
 
+
 <div
   class='mu-erd'
   data-entities='{
@@ -13,11 +14,11 @@ Ya no importa cómo lo escribamos, porque a todos ellos los vamos a identificar 
       "titulo_cancion": {
         "type": "Text"
       },
-      "id_artista": {
-        "type": "Integer",
+      "fk_artistas": {
+        "type": "?",
         "pk": false,
         "fk": {
-          "to": { "entity": "artistas", "column": "id_artista" },
+          "to": { "entity": "artistas", "column": "nombre_artista" },
           "type": "many_to_one"
         }
       },
@@ -48,6 +49,8 @@ Ya no importa cómo lo escribamos, porque a todos ellos los vamos a identificar 
     }
   }'>
 </div>
+
+
 
 Fijate que la PK de una tabla (:key: id_artista en “artistas”) no es la clave primaria de la otra (:key: id_canción en “canciones”). 
 
