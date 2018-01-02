@@ -4,16 +4,19 @@ METER TABLA...
 
 > Consultá todas las canciones asociadas a la partitura de “Symphony No.5”.
 
+
 **canciones**
 
-| _PK_  **id_cancion**|cancion| _FK_  **id_partitura** |
+|_PK_  **id_cancion**|cancion|_FK_  **id_partitura** |
 |:----------:|---------|:------:|
-|1|  left-aligned |**3**|
-|2|    centered   |**2**|
-|3| right-aligned |**1**|
+|1|La quinta sinfonía |**3**|
+|2|Claro de Luna|**2**|
+|3|Para Elisa|**1**|
 
-| _PK_  **id_cancion**|cancion| _FK_  **id_partitura** |
-|:----------:|---------|:------:|
-|1|  left-aligned |**3**|
-|2|    centered   |**2**|
-|3| right-aligned |**1**|
+**artistas**
+
+|_PK_  **id_partitura**|codigo/opus|titulo|compositor|
+|:----------:|:------:|---------|---------|
+|1|WoO 59|Für Elise|Ludwig van Beethoven|
+|2|Op. 27, No.2|Piano Sonata No.14|Ludwig van Beethoven|
+|3|Op.67|Symphony No.5|Ludwig van Beethoven|
