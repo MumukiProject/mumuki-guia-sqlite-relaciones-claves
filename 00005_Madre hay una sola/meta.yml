@@ -1,13 +1,13 @@
 ---
 tags: []
-layout: input_right
-editor: single_choice
+layout: input_bottom
+editor: multiple_choice
 type: problem
 extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: ESTA
+- value: Un hijo tiene muchas madres
   checked: true
-- value: ESTA NO
+- value: Muchos hijos tienen
   checked: false
