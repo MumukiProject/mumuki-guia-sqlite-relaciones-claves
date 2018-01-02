@@ -15,8 +15,8 @@ Entonces recapitulemos… ¿cuál es el único campo que identifica unívocament
       "titulo_cancion": {
         "type": "Text"
       },
-      "¿?: {
-        "type": "¿?",
+      "lalala": {
+        "type": "Text",
         "pk": false,
         "fk": {
           "to": { "entity": "artistas", "column": "nombre_artista" },
