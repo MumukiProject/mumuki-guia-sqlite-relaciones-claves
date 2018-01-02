@@ -14,7 +14,7 @@ Ya no importa cómo lo escribamos, porque a todos ellos los vamos a identificar 
         "type": "Text"
       },
       "id_artista": {
-        "type": "?",
+        "type": "Integer",
         "pk": false,
         "fk": {
           "to": { "entity": "artistas", "column": "id_artista" },
