@@ -5,7 +5,7 @@
 **series_peliculas**
 
 |**id_contenido**|titulo|puntaje|
-|:--:|--|:--:|
+|:--:|----|:--:|
 |1|Los juegos del hambre|9.7|
 |2|X-men|9.5|
 |3|Yo antes de tí|8|
