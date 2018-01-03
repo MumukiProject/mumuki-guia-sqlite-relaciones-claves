@@ -4,7 +4,7 @@
 
 **series_peliculas**
 
-|id_contenido|titulo|puntaje|
+|**id_contenido**|titulo|puntaje|
 |:--:|--|:--:|
 |1|Los juegos del hambre|9.7|
 |2|X-men|9.5|
@@ -13,6 +13,7 @@
 **personaje_por_contenido**
 
 |**id_contenido**|**id_personaje**|
+|:--:|:--:|
 |1|1|
 |1|2|
 |2|1|
@@ -22,6 +23,7 @@
 **personajes**
 
 |**id_personaje**|**actriz_actor**|
+|:--:|--|
 |1|Jennifer Lawrence|
 |2|Sam Claflin|
 |3|Emilia Clarke|
