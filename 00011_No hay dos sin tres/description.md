@@ -23,7 +23,7 @@
 **personajes**
 
 |**id_personaje**|**actriz_actor**|
-|:--:|--|
+|:----:|----|
 |1|Jennifer Lawrence|
 |2|Sam Claflin|
 |3|Emilia Clarke|
