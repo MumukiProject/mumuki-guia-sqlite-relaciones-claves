@@ -1,4 +1,5 @@
 type: display
-query: select * from artistas;
-type: display
 query: select * from canciones;
+
+type: display
+query: select * from artistas;
