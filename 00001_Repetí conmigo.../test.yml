@@ -1,1 +1,3 @@
-TODO: nada...
+type: display
+query: select * from canciones;
+query: select * from artistas;
