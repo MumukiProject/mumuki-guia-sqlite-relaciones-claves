@@ -1,7 +1,7 @@
 <div
   class='mu-sql-table'
   data-name='canciones'
-  data-columns='[{"name": "id_cancion", "pk": true}, "titulo", "album", {"name": "artista", "fk": true}]'
+  data-columns='[{"name": "id_cancion", "pk": true}, "titulo", "album", {"name": "id_artista", "fk": true}]'
   data-rows='[
     [1, "Bohemian rhapsody", "A night at the Opera", 1], 
     [2, "I want to break bree", "The works", 1],
