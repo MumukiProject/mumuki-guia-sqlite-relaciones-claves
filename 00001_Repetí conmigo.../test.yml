@@ -1,4 +1,4 @@
 type: display
 seed: |
-  UPDATE artistas SET genero = "folklore" WHERE nombre_artista LIKE "los borbotones";
+  UPDATE artistas SET genero = "folklore" WHERE nombre LIKE "los borbotones";
 query: select * from artistas;
