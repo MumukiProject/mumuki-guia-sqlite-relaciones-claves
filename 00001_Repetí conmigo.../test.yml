@@ -1,5 +1,4 @@
 type: display
-query: select * from canciones;
-
-type: display
+seed: |
+  UPDATE artistas SET genero = "folklore" WHERE nombre_artista LIKE "los borbotones";
 query: select * from artistas;
