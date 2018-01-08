@@ -3,7 +3,7 @@ CREATE TABLE artistas (id_artista INTEGER PRIMARY KEY, nombre TEXT, integrantes 
 INSERT INTO artistas VALUES
 (1, "Queen", "Freddie Mercury, Brian May, Roger Taylor, John Deacon", "rock", "británica"), 
 (2, "The Beatles", "John Lennon, Paul McCartney, Ringo Starr, George Harrison", "rock, pop", "inglesa"),
-(3, "Los Borbotones", "Homero Simpson, Apu de Beumarche, Seymour Skinner, Barney Gómez", "rock, pop", "estadounidense");
+(3, "Los Borbotones", "Homero Simpson, Apu de Beumarche, Seymour Skinner, Barney Gómez", "folklore", "estadounidense");
 
 CREATE TABLE canciones (id_cancion INTEGER PRIMARY KEY, titulo TEXT, album TEXT, artista TEXT, anio INTEGER);
 
