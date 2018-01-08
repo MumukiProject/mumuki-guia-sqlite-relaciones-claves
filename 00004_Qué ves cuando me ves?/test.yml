@@ -1,2 +1,2 @@
 type: query
-expected: SELECT titulo_cancion FROM canciones, artistas WHERE canciones.id_artista = artistas.id_artista AND nombre_artista LIKE “the beatles”; 
+expected: SELECT titulo_cancion FROM canciones, artistas WHERE canciones.id_artista = artistas.id_artista AND nombre_artista LIKE "the beatles"; 
