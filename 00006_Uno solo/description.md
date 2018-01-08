@@ -3,7 +3,7 @@ Casi todas las canciones tienen una partitura asociada, que se escribió antes o
 <div
   class='mu-sql-table'
   data-name='canciones'
-  data-columns='[{"name": "id_cancion", "pk": true}, "titulo", {"name": "id_partitura", "fk": true}]'
+  data-columns='[{"name": "id_cancion", "pk": true}, "nombre_cancion", {"name": "id_partitura", "fk": true}]'
   data-rows='[
     [1, "La quinta sinfonía", 3], 
     [2, "Claro de luna", 2],
