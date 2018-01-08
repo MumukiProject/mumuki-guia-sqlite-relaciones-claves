@@ -16,7 +16,7 @@ Casi todas las canciones tienen una partitura asociada, que se escribió antes o
   data-name='partituras'
   data-columns='[{"name": "id_partitura", "pk": true}, "codigo_opus", "titulo", "compositor"]'
   data-rows='[
-    [1, "WoO 59", "Für Elise" "Ludwig van Beethoven"],
+    [1, "WoO 59", "Für Elise", "Ludwig van Beethoven"],
     [2, "Op. 27, No.2", "Piano Sonata No.14", "Ludwig van Beethoven"],
     [3, "Op.67", "Symphony No.5", "Ludwig van Beethoven"]
   ]'>
