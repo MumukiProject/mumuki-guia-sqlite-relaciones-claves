@@ -2,7 +2,7 @@ Todo muy lindo, pero… ¿qué pasaría si hubieran dos artistas con el mismo no
 
 O, peor aún, ¿si hubieran dos registros sobre el mismo artista escrito de distintas maneras? Por ejemplo: “The Beatles” y “the beatles”. Ya sabemos que los strings no son muy confiables… 
 
-Entonces recapitulemos… ¿cuál es el único campo que identifica unívocamente a cada registro y que no da lugar a confusión?
+Entonces, recapitulemos… ¿cuál es el único campo que identifica unívocamente a cada registro y que no da lugar a confusión?
 
 <div
   class='mu-erd'
