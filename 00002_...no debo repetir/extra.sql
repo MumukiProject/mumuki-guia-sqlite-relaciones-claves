@@ -5,7 +5,7 @@ INSERT INTO artistas VALUES
 (2, "The Beatles", "John Lennon, Paul McCartney, Ringo Starr, George Harrison", "rock, pop", "inglesa"),
 (3, "Los Borbotones", "Homero Simpson, Apu de Beumarche, Seymour Skinner, Barney Gómez", "rock, pop", "estadounidense");
 
-CREATE TABLE canciones (id_contenido INTEGER PRIMARY KEY, titulo TEXT, album TEXT, artista TEXT REFERENCES artistas(nombre), anio INTEGER);
+CREATE TABLE canciones (id_cancion INTEGER PRIMARY KEY, titulo TEXT, album TEXT, artista TEXT REFERENCES artistas(nombre), anio INTEGER);
 
 INSERT INTO canciones VALUES 
 (1, "Bohemian rhapsody", "A night at the Opera", "Queen", 1975), 
