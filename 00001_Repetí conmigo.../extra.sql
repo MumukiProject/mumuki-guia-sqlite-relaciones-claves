@@ -1,4 +1,4 @@
-CREATE TABLE canciones (id_contenido INTEGER PRIMARY KEY, titulo TEXT, album TEXT, artista TEXT, genero TEXT, anio INTEGER);
+CREATE TABLE canciones (id_cancion INTEGER PRIMARY KEY, titulo TEXT, album TEXT, artista TEXT, genero TEXT, anio INTEGER);
 
   
 INSERT INTO canciones VALUES 
