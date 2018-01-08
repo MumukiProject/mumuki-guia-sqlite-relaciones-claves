@@ -7,9 +7,8 @@ INSERT INTO artistas VALUES
 
 CREATE TABLE canciones (id_contenido INTEGER PRIMARY KEY, titulo TEXT, album TEXT, artista TEXT REFERENCES artistas(nombre), anio INTEGER);
 
-  
 INSERT INTO canciones VALUES 
-(1, "Bohemian rhapsody", "A night at the Opera", "Queen", "rock", 1975), 
-(2, "Can`t buy me love", "A hard day`s night", "The Beatles", "rock, pop", 1964),
-(3, "Baby on board", "Más grandes que Jesús", "Los Borbotones", "rock, pop", 1985);
+(1, "Bohemian rhapsody", "A night at the Opera", "Queen", 1975), 
+(2, "Can`t buy me love", "A hard day`s night", "The Beatles", 1964),
+(3, "Baby on board", "Más grandes que Jesús", "Los Borbotones", 1985);
 
