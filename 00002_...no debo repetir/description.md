@@ -2,9 +2,9 @@ Para no tener el género (o cualquier otro campo) repetido y esparcido por varia
 
 Pero es importante entender que el nombre de la banda debe seguir correspondiéndose (siendo exactamente igual) para mantener la relación entre las dos tablas. 
 
-Así, podemos mirar los datos de una canción en una tabla, y para conocer los detalles de la banda tenemos el campo "nombre_artista" con el que buscar en la otra tabla. 
+Así, podemos mirar los datos de una canción en una tabla, y para conocer los detalles de la banda tenemos el campo "artista" con el que buscar en la otra tabla. 
 
-Veamos cómo quedaría la consulta para conocer los temas con género "Folklore".
+Veamos cómo quedaría la consulta para conocer los temas con género "folklore".
 
 <div
   class='mu-erd'
@@ -14,14 +14,14 @@ Veamos cómo quedaría la consulta para conocer los temas con género "Folklore"
         "type": "Integer",
         "pk": true
       },
-      "titulo_cancion": {
+      "titulo": {
         "type": "Text"
       },
-      "nombre_artista": {
+      "artista": {
         "type": "Text",
         "pk": false,
         "fk": {
-          "to": { "entity": "artistas", "column": "nombre_artista" },
+          "to": { "entity": "artistas", "column": "nombre" },
           "type": "many_to_one"
         }
       },
@@ -37,7 +37,7 @@ Veamos cómo quedaría la consulta para conocer los temas con género "Folklore"
         "type": "Integer",
         "pk": true
       },
-      "nombre_artista": {
+      "nombre": {
         "type": "Text"
       },
       "integrantes": {
@@ -54,10 +54,10 @@ Veamos cómo quedaría la consulta para conocer los temas con género "Folklore"
 </div>
 
 ``` sql
-SELECT id_cancion, nombre_cancion, album, canciones.nombre_artista, genero, anio 
+SELECT id_cancion, nombre, album, canciones.artista, genero, anio 
 FROM canciones, artistas
-WHERE canciones.nombre_artista = artistas.nombre_artista
-AND genero LIKE 'folklore';
+WHERE canciones.artista = artistas.nombre
+AND genero LIKE "folklore";
 
 ```
 
