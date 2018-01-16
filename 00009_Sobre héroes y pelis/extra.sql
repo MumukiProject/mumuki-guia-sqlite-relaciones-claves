@@ -1,6 +1,10 @@
 CREATE TABLE series_peliculas (id_contenido INTEGER PRIMARY KEY, titulo TEXT);
 
-CREATE TABLE personaje_por_contenido (id_contenido INTEGER PRIMARY KEY, id_personaje INTEGER PRIMARY KEY, FOREIGN KEY (id_contenido) REFERENCES series_peliculas(id_contenido), FOREIGN KEY (id_personaje) REFERENCES personajes(id_personaje));
+CREATE TABLE personaje_por_contenido (id_contenido INTEGER NOT NULL, 
+  id_personaje INTEGER NOT NULL, 
+  FOREIGN KEY (id_contenido) REFERENCES series_peliculas(id_contenido), 
+  FOREIGN KEY (id_personaje) REFERENCES personajes(id_personaje)
+  PRIMARY KEY (id_contenido, id_personaje));
 
 CREATE TABLE personajes (id_personaje INTEGER PRIMARY KEY, actriz_actor TEXT);
 
