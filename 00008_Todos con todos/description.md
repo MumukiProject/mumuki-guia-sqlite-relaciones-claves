@@ -6,6 +6,6 @@ Sabiendo esto, no podríamos tener un solo registro de este hit que utilice como
 
 Y el álbum tampoco puede tener como FK al id de la canción, por lo que ya vimos antes (cada disco tiene muchas canciones). 
 
-¿¿¿Cómo hacemos entonces??? 
+:dizzy_face: ¿¿¿Cómo hacemos entonces??? 
 
 > Apretá Continuar para ver cómo se soluciona este matete. :ok_woman:
