@@ -41,9 +41,9 @@ Lo bueno de todo esto es que ya sabemos cómo se resuelve ese tipo de relación 
 
 > ``` sql
 SELECT titulo 
-FROM series_peliculas s, personaje_por_contenido ps, personajes p
-WHERE s.id_contenido = ps.id_contenido 
-AND ps.id_personaje = p.id_personaje 
+FROM series_peliculas s, personaje_por_contenido pc, personajes p
+WHERE s.id_contenido = pc.id_contenido 
+AND pc.id_personaje = p.id_personaje 
 AND p.actriz_actor LIKE “%Jennifer%Lawrence%”;
 ```
 
