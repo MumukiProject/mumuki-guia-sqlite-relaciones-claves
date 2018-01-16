@@ -1,4 +1,3 @@
-
 <div
   class='mu-erd'
   data-entities='{
