@@ -43,6 +43,7 @@
     [7, "Me verás volver", 2008]
   ]'>
 </div>
+
 Como ya vimos la relación “uno a uno”, y también “uno a muchos”, no podía faltar “muchos a muchos”. 
 
 Este es uno de tantos casos donde muchos elementos de una tabla se relacionan con muchos otros de otra tabla. Entonces no hay manera de poner la PK de uno como campo del otro. 
