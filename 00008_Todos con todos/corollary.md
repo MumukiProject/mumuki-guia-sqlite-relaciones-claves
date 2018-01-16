@@ -1,45 +1,48 @@
 
-{
-  "canciones": {
-    "id_cancion": {
-      "type": "Integer",
-      "pk": true
-    },
-    "nombre_cancion": {
-      "type": "Text"
-    }
-  },
-  "cancion_por_album": {
-    "id_cancion": {
-      "type": "Integer",
-      "pk": true,
-      "fk": {
-        "to": { "entity": "canciones", "column": "id_cancion" },
-        "type": "many_to_one"
+<div
+  class='mu-erd'
+  data-entities='{
+    "canciones": {
+      "id_cancion": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre_cancion": {
+        "type": "Text"
       }
     },
-    "id_album": {
-      "type": "Integer",
-      "pk": true,
-      "fk": {
-        "to": { "entity": "discos", "column": "id_album" },
-        "type": "many_to_one"
+    "cancion_por_album": {
+      "id_cancion": {
+        "type": "Integer",
+        "pk": true,
+        "fk": {
+          "to": { "entity": "canciones", "column": "id_cancion" },
+          "type": "many_to_one"
+        }
+      },
+      "id_album": {
+        "type": "Integer",
+        "pk": true,
+        "fk": {
+          "to": { "entity": "discos", "column": "id_album" },
+          "type": "many_to_one"
+        }
+      }
+    },
+    "discos": {
+      "id_album": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre_artista": {
+        "type": "Text"
+      },
+      "anio": {
+        "type": "Integer"
       }
     }
-  },
-  "discos": {
-    "id_album": {
-      "type": "Integer",
-      "pk": true
-    },
-    "nombre_artista": {
-      "type": "Text"
-    },
-    "anio": {
-      "type": "Integer"
-    }
-  }
-}
+  }'>
+</div>
 
 <div
   class='mu-sql-table'
