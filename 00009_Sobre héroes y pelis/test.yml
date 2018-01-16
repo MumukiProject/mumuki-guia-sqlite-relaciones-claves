@@ -1,2 +1,2 @@
 type: display
-query: select titulo from series_peliculas;
+query: SELECT titulo FROM series_peliculas s, personaje_por_serie ps, personajes p WHERE s.id_contenido = ps.id_contenido AND ps.id_personaje = p.id_personaje AND p.actriz_actor LIKE "%Jennifer%Lawrence%";
