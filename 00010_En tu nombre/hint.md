@@ -1,7 +1,7 @@
 Recordá que nos interesan solo los títulos, pero tenemos como dato el nombre del actor.
 
 Te dejamos como ayudita la consulta del ejercicio anterior: :wink: 
-lala
+
 > ``` sql
 SELECT titulo 
 FROM series_peliculas s, personaje_por_contenido pc, personajes p
