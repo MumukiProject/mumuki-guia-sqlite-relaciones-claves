@@ -8,4 +8,4 @@ Y el álbum tampoco puede tener como FK al id de la canción, por lo que ya vimo
 
 ¿¿¿Cómo hacemos entonces???
 
-Fijate cómo se soluciona este matete 
+> Apretá Continuar para ver cómo se soluciona este matete. :ok_woman:
