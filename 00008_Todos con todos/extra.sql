@@ -1,1 +1,1 @@
-CREATE TABLE artistas (id_artista INTEGER PRIMARY KEY, nombre TEXT, integrantes TEXT, genero TEXT);
+CREATE TABLE canciones (id_artista INTEGER PRIMARY KEY, nombre TEXT, integrantes TEXT, genero TEXT);
