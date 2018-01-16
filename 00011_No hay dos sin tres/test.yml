@@ -1,5 +1,2 @@
 type: query
-seed: | # Opcional
-  INSERT INTO table VALUES ('dato 1');
-  INSERT INTO table VALUES ('dato 2');
 expected: SELECT DISTINCT actriz_actor FROM personajes p, personaje_por_contenido pc, series_peliculas s WHERE p.id_personaje = pc.id_personaje AND pc.id_contenido = s.id_contenido AND s.puntaje > 9;
