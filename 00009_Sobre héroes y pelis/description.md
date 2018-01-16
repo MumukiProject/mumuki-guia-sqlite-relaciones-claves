@@ -4,30 +4,38 @@ Queremos agregar la posibilidad de buscar por actor, y devolver todas las pelíc
 
 Lo bueno de todo esto es que ya sabemos cómo se resuelve ese tipo de relación (muchos a muchos):
 
+<div
+  class='mu-sql-table'
+  data-name='series_peliculas'
+  data-columns='[{"name": "id_contenido", "pk": true}, "titulo"]'
+  data-rows='[
+    [1, "Los juegos del hambre"],
+    [2, "X-men"],
+    [3, "Yo antes de tí"]
+  ]'>
+</div>
 
-**series_peliculas**
+<div
+  class='mu-sql-table'
+  data-name='personaje_por_contenido'
+  data-columns='[{"name": "id_contenido", "pk": true, "fk": true}, {"name": "id_personaje", "pk": true, "fk": true}]'
+  data-rows='[
+    [1, 1],
+    [1, 2],
+    [2, 1],
+    [3, 2]
+  ]'>
+</div>
 
-|_PK_  **id_contenido**|titulo|
-|:---:|---|
-|**1**|Los juegos del hambre|
-|**2**|X-men|
-|**3**|Yo antes de tí|
-
-**personaje_por_contenido**
-
-|_PK, FK_ **id_contenido**|_PK, FK_ **id_personaje**|
-|:---:|:---:|
-|**1**|_1_|
-|**1**|_2_|
-|**2**|_1_|
-|**3**|_2_|
-
-**personajes**
-
-|_PK_  **id_personaje**|actriz_actor|
-|:---:|---|
-|_1_|Jennifer Lawrence|
-|_2_|Sam Claflin|
+<div
+  class='mu-sql-table'
+  data-name='personajes'
+  data-columns='[{"name": "id_personaje", "pk": true}, "actriz_actor"]'
+  data-rows='[
+    [1, "Jennifer Lawrence"],
+    [2, "Sam Claflin"]
+  ]'>
+</div>
 
 > Consultemos todas las películas en las que actuó Jennifer Lawrence.
 
