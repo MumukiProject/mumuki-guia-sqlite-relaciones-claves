@@ -1,1 +1,1 @@
-:bulb: Como habrás visto, ahora el `FROM` recibe dos tablas, y las _relacionamos_ mediante el nombre del artista (que es lo que comparten ambas) aclarándolo en el `WHERE`. 
+:bulb: Como habrás visto, ahora el `FROM` recibe dos entidades, y las _relacionamos_ mediante el nombre del artista (que es lo que comparten ambas) aclarándolo en el `WHERE`. 
