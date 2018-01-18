@@ -1,4 +1,4 @@
-En el DER las _relaciones_ se las representa por la línea que ves entre las tablas. 
+En el DER las _relaciones_ se las representa por la línea que ves entre las entidades. 
 
 1. La patita sola | indica de qué lado está ese único elemento que se relaciona con el resto.
 2. Las tres patitas nos dicen dónde están los “muchos” elementos que se relacionan con alguien del otro lado. 
