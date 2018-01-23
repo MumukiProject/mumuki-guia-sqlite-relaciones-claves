@@ -59,18 +59,14 @@
   data-name='cancion_por_album'
   data-columns='[{"name": "id_cancion", "pk": true, "fk": true}, {"name": "id_album", "pk": true, "fk": true}]'
   data-rows='[
+   
+    [1, 1],
     [1, 2],
     [1, 3],
-    [1, 5],
-    [1, 6],
-    [1, 7],
     [2, 1],
+    [2, 2],
     [2, 3],
-    [2, 5],
-    [2, 7],
-    [3, 4],
-    [3, 5],
-    [3, 6]
+    [3, 2],
   ]'>
 </div>
 
@@ -79,13 +75,9 @@
   data-name='discos'
   data-columns='[{"name": "id_album", "pk": true}, "album", "anio"]'
   data-rows='[
-    [1, "Nada personal", 1985],
-    [2, "Doble vida", 1988],
-    [3, "Zona de promesas", 1993],
-    [4, "Sueño stereo", 1995],
-    [5, "Comfort y música para volar", 1996],
-    [6, "El último concierto", 1997],
-    [7, "Me verás volver", 2008]
+    [1, "Zona de promesas", 1993],
+    [2, "Comfort y música para volar", 1996],
+    [3, "Me verás volver", 2008]
   ]'>
 </div>
 
