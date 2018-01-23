@@ -59,7 +59,6 @@
   data-name='cancion_por_album'
   data-columns='[{"name": "id_cancion", "pk": true, "fk": true}, {"name": "id_album", "pk": true, "fk": true}]'
   data-rows='[
-   
     [1, 1],
     [1, 2],
     [1, 3],
