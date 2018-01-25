@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-sqlite-relaciones-claves/master/images/tabla_mam_1516893131068.png" alt="tabla_mam_1516893131068.png" width="auto" height="auto">
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-sqlite-relaciones-claves/master/images/tabla_mam_1516893131068.png" alt="tabla_mam_1516893131068.png" width="100%">
 
 Como ya vimos la relación “uno a uno”, y también “uno a muchos”, no podía faltar “muchos a muchos”. 
 
