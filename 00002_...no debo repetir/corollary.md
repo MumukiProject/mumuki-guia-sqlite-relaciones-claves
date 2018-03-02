@@ -2,7 +2,7 @@
 
 Esto mismo se puede reemplazar por la combinación `FROM`+`JOIN`+`ON`, donde el `FROM` recibe la primer tabla, el `JOIN` el resto de las tablas con las que queramos establecer la relación, y en el `ON` hacemos la aclaración de los campos compartidos que te contamos arriba; así, el `WHERE` sigue usándose para el resto de las condiciones a cumplir tal como ya viste. 
 <br>
-Por esto, cuando se consultan datos de más de una tabla, se habla de **hacer un `JOIN`** o simplemente **joinear**.
+Por esto, cuando se consultan datos de más de una tabla, se habla de **hacer un `JOIN`** o simplemente **joinear**. 
 
 La consulta equivalente sería así:
 
