@@ -1,2 +1,2 @@
 type: display
-query: SELECT id_cancion, nombre, album, canciones.artista, genero, anio FROM canciones, artistas WHERE canciones.artista = artistas.nombre AND genero LIKE "folklore";
+query: SELECT id_cancion, nombre, album, canciones.artista, genero, anio FROM canciones JOIN artistas ON canciones.artista = artistas.nombre WHERE genero LIKE "folklore";
