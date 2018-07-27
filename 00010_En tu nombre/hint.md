@@ -7,6 +7,6 @@ SELECT titulo
 FROM series_peliculas s, personaje_por_contenido pc, personajes p
 WHERE s.id_contenido = pc.id_contenido 
 AND pc.id_personaje = p.id_personaje 
-AND p.actriz_actor LIKE “%Jennifer%Lawrence%”;
+AND p.actriz_actor LIKE "%Jennifer%Lawrence%";
 ```
 

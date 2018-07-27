@@ -1,8 +1,9 @@
 ---
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: hidden
 type: problem
 extra_visible: false
 manual_evaluation: false
 choices: []
+name: "...no debo repetir"

@@ -13,3 +13,4 @@ choices:
   checked: true
 - value: Ponemos el id de la canción en un campo del álbum
   checked: false
+name: Disco de oro
