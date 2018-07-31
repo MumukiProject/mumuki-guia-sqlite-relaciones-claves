@@ -22,4 +22,4 @@ Casi todas las canciones tienen una partitura asociada, que se escribió antes o
   ]'>
 </div>
 
-> Consultá los nombres de todas las canciones asociadas a la partitura de “Symphony No.5”.
+> Consultá los nombres de todas las canciones asociadas a la partitura de "Symphony No.5".
