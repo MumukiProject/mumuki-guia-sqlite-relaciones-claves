@@ -7,10 +7,13 @@ extra_visible: false
 language: text
 manual_evaluation: false
 choices:
-- value: Ponemos el nombre del disco en un campo de la canción
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ponemos el nombre del disco en un campo de la canción
   checked: false
-- value: Ponemos el id del disco en un campo de la canción
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ponemos el id del disco en un campo de la canción
   checked: true
-- value: Ponemos el id de la canción en un campo del álbum
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Ponemos el id de la canción en un campo del álbum
   checked: false
 name: Disco de oro

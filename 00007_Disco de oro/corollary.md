@@ -17,7 +17,7 @@ Al igual que un par de ejercicios atrás, estamos ante una relación “muchos a
   data-columns='[{"name": "id_album", "pk": true}, "album", "anio"]'
   data-rows='[
     [6, "El último concierto", 1997],
-    [7, "Cuando pase el temblor", 7],
+    [7, "Cuando pase el temblor", 1985],
     [3, "Me verás volver", 2008]
   ]'>
 </div>
