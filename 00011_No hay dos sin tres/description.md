@@ -1,4 +1,4 @@
-¡Espectacular! Ya estamos listos para ponerle el pecho a lo que se venga.
+¡Espectacular! Ya podemos ponerle el pecho a lo que se venga.
 
 > Consultá los actores y actrices que participen en películas con puntaje mayor a 9. Procurá que no se repitan los resultados.
 
